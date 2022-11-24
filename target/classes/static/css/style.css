@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.section-1{
+    padding:40px;
+    background-image: url("https://ak0.picdn.net/shutterstock/videos/20344780/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:550px;
+    background-size: 100% 100%;
+}
+
+.section-1-text{
+    display: block;
+    border: black;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+
+
+
+

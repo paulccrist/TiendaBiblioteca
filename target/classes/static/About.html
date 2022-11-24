@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.css">
+<title>Nosotros</title>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  width: 300px;
+  height: 400px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+</head>
+<body>
+	<header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LibrotecaStore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link" href="/products.html">Productos</a>
+              <a class="nav-link" href="/proveedores.html">Proveedores</a>
+              <a class="nav-link" href="/About.html">Nosotros</a>
+              <a class="nav-link" href="/Register.html">Registro</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Book Zone provides easy interface to its customer for purchasing books online.</p>
+  <p>For any query leave a comment in the Home page comment section. You can also send us email and call us 
+      on Week days. 
+      <br>Thankyou for your patience and hope you had a great shopping here.
+  </p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="/images/p1.jfif" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Himansi</h2>
+        <p class="title">CEO & Founder</p>
+        <p>“Be yourself; everyone else is already taken.”</p>
+        <p>himanshi@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <center><img src="/images/p2.jfif" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Abc</h2>
+        <p class="title">Art Director</p>
+        <p>“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”</p>
+        <p>Abc@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <center><img src="/images/p3.jfif" alt="Jane" style="width:100% height=300px"></center>
+      <div class="container">
+        <h2>Xyz</h2>
+        <p class="title">Designer</p>
+        <p>“A room without books is like a body without a soul.”</p>
+        <p>xyz@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
